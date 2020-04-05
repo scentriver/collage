@@ -15,7 +15,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-image: url(IMG_5566.JPG);
   background-size: cover;
   color: white;
   text-align: center;
@@ -56,7 +56,7 @@ a {
 }
 
 .twitter {
-  background-color: #55acee;
+  background-color: #FF1493;
 }
 
 .btn {
@@ -78,13 +78,11 @@ a {
 header {
   height: 65px;
   width: 100%;
-  
   background-color: rgba(250, 185, 45, 0.9);
-  /* positionプロパティをfixedに、topを0に指定してください */
   position:fixed;
   z-index:10;
-  /* z-indexを10に指定してください */
-  
+
+
 }
 
 .logo {
@@ -98,7 +96,9 @@ header {
 
 .header-left h1{
   color:white;
-  padding-top:10px;
+  padding: 10px　0px 10px 0px;
+  margin-top: 10px;
+  margin-left: 0px;
 }
 
 .header-right {
@@ -197,7 +197,7 @@ footer {
 }
 
 .movie {
-  
+
 }
 .movie h1{
   text-align:center;
