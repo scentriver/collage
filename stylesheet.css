@@ -1,6 +1,8 @@
 body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
+  background: url(IMG_5566.JPG) fixed;
+  background-size: cover;
 }
 
 a {
@@ -15,8 +17,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(IMG_5566.JPG);
-  background-size: cover;
+
   color: white;
   text-align: center;
 }
@@ -31,7 +32,7 @@ a {
   opacity: 0.7;
   font-size: 20px;
   letter-spacing: 5px;
-  padding-top:20px;
+  margin-bottom: :50px;
 }
 
 .top-wrapper p {
@@ -52,11 +53,32 @@ a {
 
 .facebook {
   background-color: #3b5998;
-  margin-right: 10px;
+
+  margin-right: 100px;
+  margin-top: 200px;
 }
 
 .twitter {
   background-color: #FF1493;
+  margin-right: 100px;
+  margin-top: 200px;
+}
+.line{
+  background-color: #00FF00;
+  height: 25px;
+}
+.accounts a{
+  padding-top: 30px;
+  font-size: 100px;
+}
+
+.btn-rapper{
+  text-align: center;
+}
+.btn-rapper p{
+  text-align: left;
+  font-size: 80px;
+  margin-left: 10px;
 }
 
 .btn {
@@ -133,6 +155,7 @@ header {
 
 .heading h2 {
   font-weight: normal;
+  color:white;
 }
 
 .lesson {
@@ -142,13 +165,19 @@ header {
 
 .lesson-icon {
   position: relative;
+  opacity: 0.7;
+}
+
+.lesson-icon:hover{
+  opacity: 1;
 }
 
 .lesson-icon p{
   position: absolute;
-  top: 90px;
+  top: 74px;
   width: 100%;
   color: white;
+  font-size: 20px;
 }
 
 
@@ -162,12 +191,14 @@ header {
 
 .heading h3 {
   font-weight: normal;
+  color:white;
 }
 
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
+  height: 400px;
 }
 
 .message {
@@ -194,12 +225,95 @@ footer p {
 
 footer {
   padding-top: 30px;
+  background-color: white;
 }
 
-.movie {
+.recomend {
+background-color:rgba(0,0,128,0.3);
 
 }
-.movie h1{
+.recomend h1{
   text-align:center;
-  padding:30px 0px 1000px 0px;
+  padding:30px 0px 0px 0px;
+  color:white;
+}
+.recomend p{
+  text-align:center;
+  padding:10px 0px 10px 0px;
+  color:white;
+  font-size:50px;
+}
+.recomend li{
+  list-style:none;
+  color:white;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.carriculum{
+  background-color: rgba(255, 215, 0, 0.5);
+  height: 1400px;
+  text-align: center;
+}
+.contents{
+  padding-top: 40px;
+  font-size: 25px;
+}
+.study {
+background: white;
+  text-align: left;
+  margin-top: 50px;
+}
+.study h1{
+  font-size: 25px;
+
+}
+.study p{
+  font-size: 25px;
+  margin-top: 0px;
+  color: black;
+}
+
+.study-icon {
+  position: relative;
+}
+
+.study-icon h1{
+  position: absolute;
+  top: 65px;
+  width: 200%;
+  color: white;
+}
+
+.acounts{
+  height:700px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.vision{
+  height: 500px;
+}
+.vision h1{
+  color:white;
+  text-align: center;
+  font-size: 50px;
+}
+.mission{
+  height:600px;
+}
+.mission h1{
+  color:white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.detail{
+  height:800px;
+  background-color: #FFCC33;
+  margin-bottom: 20px;
+}
+
+.detail h1{
+  font-size: 50px;
 }
